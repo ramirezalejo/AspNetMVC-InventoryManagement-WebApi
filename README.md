@@ -10,9 +10,10 @@ CRUD like Create, Edit and Delete actions were performed by created Web API func
 
 ## First version of published project
 ---
-inventorywebapi.azurewebsites.net                
-user: admin@gmail.com                    
-pass: 123123
+Setup local env:
+1. Run the app, and register a user
+2. Run the migrations using the command "Update-Database" on the package manager console
+3. Run the app again and login with the user created in step 1
 
 ## Screenshots
 ---

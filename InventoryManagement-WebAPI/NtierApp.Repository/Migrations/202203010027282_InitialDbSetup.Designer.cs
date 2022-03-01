@@ -7,13 +7,13 @@ namespace NtierApp.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class DenemeMig : IMigrationMetadata
+    public sealed partial class InitialDbSetup : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DenemeMig));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialDbSetup));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812251932446_DenemeMig"; }
+            get { return "202203010027282_InitialDbSetup"; }
         }
         
         string IMigrationMetadata.Source
